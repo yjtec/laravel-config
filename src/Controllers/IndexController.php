@@ -23,8 +23,6 @@ class IndexController extends Controller
      */    
     public function index(Request $request)
     {
-
-        dd(\YjConfig::get('title'));
         $data = \MC::get('yj_config_gloabl');
         if($data){
             return $data;
