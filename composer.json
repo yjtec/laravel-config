@@ -1,0 +1,29 @@
+{
+    "name": "yjetc/laravel-config",
+    "description": "laravel-config",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kidkang",
+            "email": "723616880@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Yjetc\\Config\\":"src/"
+        }
+    },    
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yjtec\\Config\\ConfigServiceProvider"
+            ],
+            "aliases":{
+                "YjConfig":"Yjtec\\Config\\Facades\\YjConfig"
+            }            
+        }
+    }
+}
