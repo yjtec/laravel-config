@@ -1,5 +1,5 @@
 {
-    "name": "yjetc/laravel-config",
+    "name": "yjtec/laravel-config",
     "description": "laravel-config",
     "type": "library",
     "license": "MIT",
@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Yjetc\\Config\\":"src/"
+            "Yjtec\\Config\\":"src/"
         }
     },    
     "extra": {
